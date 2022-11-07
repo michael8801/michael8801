@@ -1,7 +1,7 @@
 #! /bin/bash
-apt update
-apt install apache2
-systemctl start apache2
+sudo apt update
+sudo apt install apache2
+sudo systemctl start apache2
 cd /var/www/html
-chmod o+x index.html
-echo "Oleshchenko Mykhailo" > index.html
+sudo chmod o+x index.html
+sudo echo "Oleshchenko Mykhailo" > index.html
